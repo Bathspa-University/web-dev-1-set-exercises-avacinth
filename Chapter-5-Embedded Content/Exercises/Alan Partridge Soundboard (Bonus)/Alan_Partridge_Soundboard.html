@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Alan_Partridge_Soundboard.css"/>
+    <style>
+        body,html{
+            height: 100%;
+            margin: 0;
+        }
+        .background{
+            background-image: url(soundboard-background.jpeg);
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="background">
+<h1> Soundboard </h1>
+
+<div class="button-container">
+    <div>
+        <audio preload="auto" id="ah-ha">
+            <source src="ah-ha-101soundboards.mp3" type="audio/mp3">
+        </audio>
+        <button type="button" class="button" onclick="document.getElementById('ah-ha').play()"> Ah-Ha </button>
+    </div>
+    <div>
+        <audio preload="auto" id="goal">
+            <source src="goal-101soundboards.mp3" type="audio/mp3">
+        </audio>
+        <button type="button" class="button" onclick="document.getElementById('goal').play()"> Goal </button>
+    </div>
+    <div>
+        <audio preload="auto" id="hello">
+            <source src="hello-101soundboards.mp3" type="audio/mp3">
+        </audio>
+        <button type="button" class="button" onclick="document.getElementById('hello').play()"> Hello </button>
+    </div>
+    <div>
+        <audio preload="auto" id="laughter">
+            <source src="laughter-101soundboards.mp3" type="audio/mp3">
+        </audio>
+        <button type="button" class="button" onclick="document.getElementById('laughter').play()"> Laughter </button>
+    </div>
+    <div>
+        <audio preload="auto" id="oh-forget-it">
+            <source src="oh-forget-it-101soundboards.mp3" type="audio/mp3">
+        </audio>
+        <button type="button" class="button" onclick="document.getElementById('oh-forget-it').play()"> Oh forget it </button>
+    </div>
+    <div>
+        <audio preload="auto" id="camera_shutter">
+            <source src="camera_shutter.mp3" type="audio/mp3">
+        </audio>
+        <button type="button" class="button" onclick="document.getElementById('camera_shutter').play()"> Camera Shutter </button>
+    </div>
+    <div>
+        <audio preload="auto" id="womp-womp-womp">
+            <source src="downer_noise.mp3" type="audio/mp3">
+        </audio>
+        <button type="button" class="button" onclick="document.getElementById('womp-womp-womp').play()"> Womp Womp Womp </button>
+    </div>
+    <div>
+        <audio preload="auto" id="spongebob-fail">
+            <source src="spongebob-fail.mp3" type="audio/mp3">
+        </audio>
+        <button type="button" class="button" onclick="document.getElementById('spongebob-fail').play()"> SpongeBob Fail </button>
+    </div>
+    <div>
+        <audio preload="auto" id="dry-fart">
+            <source src="dry-fart.mp3" type="audio/mp3">
+        </audio>
+        <button type="button" class="button" onclick="document.getElementById('dry-fart').play()"> Dry Fart </button>
+    </div>
+</div>
+</body>
+</html>
