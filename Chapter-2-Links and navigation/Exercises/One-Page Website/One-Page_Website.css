@@ -27,22 +27,11 @@
     color: black;
 }
 
-.logo-container {
-    flex: 1
-}
 .logo {
     font-size: 30px;
     padding-top: 7px;
     padding-left: 53px;
 }
-.links-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .links-list li {
-    display: inline; /* Display list items horizontally */
-  }
 
 .links-list-item {
     margin-right: 30px;
@@ -90,11 +79,7 @@
 }
 
 .watch-button{
-    width: 100px;
-    height: 30px;
-    background-color: rgb(142, 144, 134);
-    border-color: black;
-    border-radius: 10px;
+    text-decoration: none;
 
 }
 
@@ -105,8 +90,7 @@
     margin: 0 auto;
 }
 .cast-container {
-    background-color: black;
-    color: white;
+    background-color: rgb(142, 144, 134);
     text-align: center;
     padding: 10px;
     max-width: 100%;
