@@ -1,0 +1,15 @@
+.reviews-container{
+    margin: 50px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.reviews-text{
+    padding-left: 50px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
+
+h3{
+    padding-top: 30px;
+}
