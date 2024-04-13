@@ -27,22 +27,11 @@
     color: black;
 }
 
-.logo-container {
-    flex: 1
-}
 .logo {
     font-size: 30px;
     padding-top: 7px;
     padding-left: 53px;
 }
-.links-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .links-list li {
-    display: inline; /* Display list items horizontally */
-  }
 
 .links-list-item {
     margin-right: 30px;
