@@ -5,24 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Alan_Partridge_Soundboard.css"/>
-    <style>
-        body,html{
-            height: 100%;
-            margin: 0;
-        }
-        .background{
-            background-image: url(soundboard-background.jpeg);
-            height: 100%;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-    </style>
+
 </head>
 <body>
 
 <div class="background">
 <h1> Soundboard </h1>
+
+<div class="TextToRead-container">
+    <label for="TextToRead"> Enter text to Listen</label><br>
+    <input id="TextToRead" type="text"><br>
+    <button id="TextToRead-button">Click to Listen</button>
+</div>
 
 <div class="button-container">
     <div>
@@ -80,5 +74,8 @@
         <button type="button" class="button" onclick="document.getElementById('dry-fart').play()"> Dry Fart </button>
     </div>
 </div>
+
+<script src="Alan_Partridge_Soundboard.js"></script>
+
 </body>
 </html>
