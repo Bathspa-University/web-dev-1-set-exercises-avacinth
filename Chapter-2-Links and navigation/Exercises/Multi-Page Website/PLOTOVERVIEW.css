@@ -1,0 +1,11 @@
+.plot-container{
+    margin: 50px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.plot-text{
+    padding-left: 50px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
