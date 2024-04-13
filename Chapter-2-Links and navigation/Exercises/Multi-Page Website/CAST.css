@@ -1,0 +1,58 @@
+.cast-list-wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cast-container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    max-width: 100%;
+    margin: 0;
+}
+.cast-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .cast-list-items {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cast-list-items-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 30px;
+}
+.cast-list-items-name {
+    display: block;
+}
+.cast-list-items-as {
+    display: block;
+}
+
+.cast-button{
+    width: 300px;
+    text-align: center;
+    padding-left: 680px;
+    text-decoration: none;
+}
+
+/* Plot Overview */
+
+.plot-container{
+    border-top: 2px solid #ccc;
+    margin: 50px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.plot-text{
+    padding-left: 50px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
